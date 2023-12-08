@@ -23,8 +23,13 @@ public class Line {
         Double dLen2 = new Double(length2);
         if ( dLen1.equals( dLen2)){
             System.out.println("Two lines are equal ");
-        }else {
-            System.out.println( "Two lines are not equal");
         }
+        else if (dLen1.compareTo(dLen2) >0) {
+            System.out.println("line 1 is greater than line 2");
+        }
+        else {
+            System.out.println( "line 2 is greater than line 1");
+        }
+
     }
 }
