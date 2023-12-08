@@ -7,7 +7,7 @@ public class Line {
     static int y2 = 5;
     public static void main(String[] args) {
 
-        System.out.println("Welcome Line Comparison Program");
+        System.out.println("Welcome to Line Comparison Program");
 
 
         double LengthOfLine = sqrt( (x2 - x1) ^ 2 + (y2- y1) ^ 2);
